@@ -1,0 +1,102 @@
+body{
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container{
+    direction:flex;
+    flex-direction:row;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.cartcheck{
+    display: block;
+    background-color: #F2F2F2;
+    padding: 5px 20px 15px;
+    border: 1px solid lightgray;
+    border-radius:3px;
+    width: 70%;
+}
+
+#head-cart{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.price{
+    float: right;
+}
+#carticon{
+    display: inline;
+    float: left;
+}
+
+#row-text{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.billing-Address{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-top: 25px;
+    width: 70%;
+    display: flex;
+}
+
+#billing-title {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.row-billing {
+    flex: 50%;
+    width: 100%;
+}
+
+#row-text-billing{
+    display: grid;
+    width: 100%;
+}
+
+#icon::content{
+    content: "123";
+}
+
+#input-row{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn{
+    background-color: rgb(155, 30, 30);
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
